@@ -1,4 +1,3 @@
-```markdown
 # � Plataforma de Desenvolvimento - Flutter & PHP Stack
 
 Este projeto fornece um ambiente de desenvolvimento robusto, conteinerizado e totalmente automatizado utilizando **Docker** e **VS Code Dev Containers**. Ele integra um frontend em **Flutter Web**, uma API em **PHP (Apache)** e um banco de dados **MySQL 8.0** com interface gráfica **Adminer**.
