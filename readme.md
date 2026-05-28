@@ -12,7 +12,7 @@ O ambiente foi blindado contra conflitos de redes órfãs e isolamento de portas
 |---|---|---|
 | **Flutter Web** | SDK configurado, pronto para compilar e servir a aplicação Web | `8085` |
 | **PHP API** | Apache + PHP 8.2 com suporte nativo a PDO e CORS liberado | `8000` |
-| **MySQL 8.0** | Instância isolada dentro da rede interna do Docker | `3306` |
+| **MariaDB 10.0** | Instância isolada dentro da rede interna do Docker | `3306` |
 | **Adminer** | Interface gráfica leve para administrar o MySQL pelo navegador | `8080` |
 
 Todos os serviços são interconectados automaticamente pela rede bridge privada `flutterdev_platform_network`.

@@ -18,8 +18,8 @@ services:
       - app-network
 
   db:
-    image: mysql:8.0
-    container_name: mysql_db
+    image: mariadb:10.6
+    container_name: mariadb_db
     restart: always
     ports:
       - "${DB_PORT:-3306}:3306"
